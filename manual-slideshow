@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Slider</title>
+  <meta name="keywords" content="manual slideshow, responsive, image gallery" />
+  <meta name="description" content="responsive manual image slideshow" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="manual-slideshow.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Slider</h1>
+    <p>This is a responsive gallery and manual slideshow modal capable of taking both
+    portrait and landscape orientations.</p>
+  </header>
+
+  <div class="row">
+    <div class="column">
+      <img id="1" class="slide" src="images/bridge-london-england.jpg" alt="Thames River in London" />
+      <img id="2" class="slide" src="images/bicycle-amsterdam.jpg" alt="Purple bicycle on side of Amsterdam street" />
+      <img id="3" class="slide" src="images/california.jpg" alt="Central california landscape" />
+    </div>
+    <div class="column">
+      <img id="4" class="slide" src="images/ayers-road-canterbury.jpg" alt="Inside of owner built home in New Hampshire" />
+      <img id="5" class="slide" src="images/cat-cambridge-massachusetts.jpg" alt="Dexy the cat" />
+      <img id="6" class="slide" src="images/kansas.jpg" alt="autumn in an old cemetery" />
+    </div>
+    <div class="column">
+      <img id="7" class="slide" src="images/northern-california.jpg" alt="Northern California landscape" />
+      <img id="8" class="slide" src="images/miami-florida-graffiti.jpg" alt="graffiti in Miami" />
+      <img id="0" class="slide" src="images/shenandoah-virginia.jpg" alt="Appalachian Mountains in Virginia" />
+      <img id="10" class="slide" src="images/pink-baltimore-maryland.jpg" alt="Spring in historic Baltimore" />
+    </div>
+    <div class="column">
+      <img id="11" class="slide" src="images/seattle-washington.jpg" alt="Volunteer Park in Seattle" />
+      <img id="12" class="slide" src="images/xmas-amsterdam-netherlands.jpg" alt="Winter in Holland" />
+      <img id="13" class="slide" src="images/winter-alicante-spain.jpg" alt="Interior of house in Massachusetts" />
+    </div>
+  </div>
+  
+  <!-- the modal for the responsive slideshow -->
+  <div id="slide-modal">
+    <a id="close" class="slider-button">&times;</a>
+    <a id="full" class="slider-button">&#10529;</a>
+    <a id="previous" class="slider-button">&#8249;</a>
+    <a id="next" class="slider-button">&#8250;</a>
+    <img id="modal-content" />
+  </div>
+
+  <footer>
+    <h2>Adam Franks</h2>
+    <ul>
+      <li><a href="https://github.com/adfranks" target="_blank">GitHub Profile</a></li>
+      <li><a href="http://adfranks.com/portfolio/portfolio.html" target="_blank">Portfolio</a></li>
+    </ul>
+  </footer>
+
+<script src="manual-slideshow.js"></script>
+
+</body> 
+
+</html> 
