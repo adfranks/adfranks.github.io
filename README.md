@@ -6,6 +6,8 @@
 
 [**Automatic Slideshow**](http://adfranks.github.io/auto-slideshow)
 
+[**Custom HTML Email Template**](http://adfranks.github.io/custom-html-email-template)
+
 To view more of my projects, go to my [**portfolio**](http://adfranks.com/portfolio/portfolio.html) or my [**GitHub profile**](https://github.com/adfranks). 
 
 Don't forget to have a nice day.
