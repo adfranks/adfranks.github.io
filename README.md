@@ -6,7 +6,7 @@
 
 [**Automatic Slideshow**](http://adfranks.github.io/auto-slideshow)
 
-[**Custom HTML Email Template**](http://adfranks.github.io/custom-html-email-template)
+[**Custom HTML Email**](http://adfranks.github.io/custom-html-email)
 
 To view more of my projects, go to my [**portfolio**](http://adfranks.com/portfolio/portfolio.html) or my [**GitHub profile**](https://github.com/adfranks). 
 
